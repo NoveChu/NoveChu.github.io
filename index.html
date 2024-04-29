@@ -14,7 +14,7 @@
         }
         h1 {
             color: black; /* Cambia el color del texto a negro */
-            margin-top: 100px; /* Ajusta este valor para mover el título hacia abajo */
+            margin-top: 50px; /* Ajusta este valor para mover el título hacia abajo */
             margin-bottom: 20px;
             text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff; /* Agrega un borde blanco */
         }
@@ -23,6 +23,12 @@
             margin-top: 20px; /* Ajusta este valor para mover el mapa hacia abajo */
             opacity: 0;
             transition: opacity 0.5s ease-in-out;
+        }
+        #map-container iframe {
+            max-width: 100%; /* Establece un ancho máximo para el mapa */
+            width: 300px; /* Ajusta este valor según sea necesario */
+            height: auto; /* Permite que la altura se ajuste automáticamente */
+            margin: 0 auto; /* Centra el mapa horizontalmente */
         }
         #location-button {
             background-color: #940074;
